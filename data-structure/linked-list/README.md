@@ -17,7 +17,7 @@ A sequential nodes that contains value and the reference to another node.
 | Singly | Easy to implement             | Hard to access previous nodes |
 | Doubly | Easy to access previous nodes | Takes 2x space                |
 
-### Usage
+### Application Scenarios
 
 - As queue or stack implementation.
 - Circular lists.

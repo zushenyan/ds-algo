@@ -5,7 +5,7 @@
 - `static array` a fixed length of container that contains elements with the range `[0, n - 1]`.
 - `dynamic array` a container with a flexible size that can grow or shrink for better utilizing the memory usage.
 
-### Usage
+### Application Scenarios
 
 1. Sorting and accessing sequential data.
 2. Buffer
