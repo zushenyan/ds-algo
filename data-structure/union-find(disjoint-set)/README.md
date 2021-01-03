@@ -69,7 +69,7 @@ Kruskal's Minimum Spanning Tree is an algorithm for finding a Minimum Spanning T
 2. Walk through all the edges and find the two nodes the edge belongs to, if the nodes are already unified we don't include edge, otherwise we include it and unify the nodes.
 3. The process terminates when every edge has been processed or all nodes(vertices) have been unified.
 
-![UnionFindKruskalDemo](https://en.wikipedia.org/wiki/File:UnionFindKruskalDemo.gif)
+![UnionFindKruskalDemo](https://upload.wikimedia.org/wikipedia/commons/a/a3/UnionFindKruskalDemo.gif)
 
 ### Application Scenarios
 
