@@ -85,5 +85,3 @@ It's the complexity when a PQ is implemented with binary heap.
 | Advanced Contains\*      | O(1)       |
 
 \* With help from a hash table, however it takes up linear space and some overhead.
-
-###
