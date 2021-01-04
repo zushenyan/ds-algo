@@ -6,11 +6,11 @@ A sequential nodes that contains value and the reference to another node.
 
 **Singly** linked list only holds the reference to the next node:
 
-`node -> node -> node -> null`
+`1 -> 2 -> 3 -> null`
 
 **Doubly** linked list holds both the references to the previous and the next nodes:
 
-`node <-> node <-> node <-> null`
+`1 <-> 2 <-> 3 <-> null`
 
 |        | Pros                          | Cons                          |
 | ------ | ----------------------------- | ----------------------------- |
