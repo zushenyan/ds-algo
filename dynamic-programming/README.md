@@ -22,6 +22,8 @@ function fib(n: number): number {
 
 In recursive manner, the whole operation can be visuallized as a tree:
 
+![tree](https://github.com/zushenyan/ds-algo/blob/main/dynamic-programming/tree.png)
+
 In the graph above, we can see there are tons of duplicated nodes circled in red rectangles.
 
 We can optimize it with either **memoization** or **tabulation**, either one can help optimze our performance (the `n` here represents the height of the tree):
