@@ -18,7 +18,7 @@ function fib(n: number): number {
 }
 ```
 
-### Memoization
+## Memoization
 
 In recursive manner, the whole operation can be visuallized as a tree:
 
@@ -51,7 +51,7 @@ function fib(n: number, memo: Record<number, number> = {}): number {
 }
 ```
 
-### Tabulation
+## Tabulation
 
 Tabulation always solve the problem in an iterative, array-like way. Unlike recursion, we can illustrate it with an array. Suppose we want to calculate `fib(6) = 8`
 
