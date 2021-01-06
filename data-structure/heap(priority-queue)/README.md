@@ -62,6 +62,70 @@ A Binary Heap can be represented as array, for example the heap above can be rep
 - `2i + 1` left child index (zero based index)
 - `2i + 2` right child index (zero based index)
 
+###### The Removal and Insertion
+
+Suppose we have a binary heap tree like below:
+
+```
+Original tree
+          9 (0)
+        /    \
+   (1) 8      7 (2)
+      / \    / \
+     6   5   n  n
+    (3)  (4) (5) (6)
+
+index 0 1 2 3 4 5 6
+value 9 8 7 6 5 n n
+
+# Insert 8
+          9 (0)
+        /    \
+   (1) 8      7 (2)
+      / \    / \
+     6   5   8  n
+    (3)  (4) (5) (6)
+
+index 0 1 2 3 4 5 6
+value 9 8 7 6 5 8 n
+
+However since we have to main its heap invariant,
+we have to bubble the 8 up until the invariant is met.
+          9 (0)
+        /    \
+   (1) 8      8 (2)
+      / \    / \
+     6   5   7  n
+    (3)  (4) (5) (6)
+
+index 0 1 2 3 4 5 6
+value 9 8 8 6 5 7 n
+
+# Remove 8 (suppose we want to remove the 8 on the left)
+(First we swap the #1 with #5)
+          9 (0)
+        /    \
+   (1) 7      8 (2)
+      / \    / \
+     6   5   8  n
+    (3)  (4) (5) (6)
+
+index 0 1 2 3 4 5 6
+value 9 7 8 6 5 8 n
+
+(And then we remove #5. Still we need to keep invariant,
+so in some cases nodes to be bubbled up/sinked down)
+          9 (0)
+        /    \
+   (1) 7      8 (2)
+      / \    / \
+     6   5   n  n
+    (3)  (4) (5) (6)
+
+index 0 1 2 3 4 5 6
+value 9 7 8 6 5 n n
+```
+
 ### Application Scenarios
 
 - Dynamically fetch the "next best" or the "next worst".
