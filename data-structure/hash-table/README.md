@@ -103,7 +103,7 @@ When it grows larger we might have a lot of elements that we no longer maintain 
 
 It finds another place for storing whithin the hash table by offsetting from the position to which it hashed to. Repeating this approach until a slot is found is called `probing sequence P(x)`.
 
-`Key-value paris` are stored in the table itself as opposed to separate chaining.
+`Key-value pairs` are stored in the table itself as opposed to separate chaining.
 
 We need a load factor to determine if we hit the threshold of a hash table
 
