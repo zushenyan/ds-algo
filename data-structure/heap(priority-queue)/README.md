@@ -89,7 +89,7 @@ value 9 8 7 6 5 n n
 index 0 1 2 3 4 5 6
 value 9 8 7 6 5 8 n
 
-However since we have to main its heap invariant,
+However since we have to maintain its heap invariant,
 we have to bubble the 8 up until the invariant is met.
           9 (0)
         /    \
