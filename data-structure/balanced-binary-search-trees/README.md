@@ -1,10 +1,10 @@
 # Balanced Binary Search Trees (BBST)
 
-### Definition
+## Definition
 
 BBST is a self balancing binary search tree which helps to maintain `O(log(n))` time complexity when performs operations.
 
-###### Tree Rotations
+### Tree Rotations
 
 To help maintain the performance, we can use tree rotations. It still holds the invariant because for every node `n`, `n.left < n` and `n.right > n`.
 
@@ -16,11 +16,11 @@ To help maintain the performance, we can use tree rotations. It still holds the 
 D   E      Left rot.      E   C
 ```
 
-### Application Scenarios
+## Application Scenarios
 
 - When you want to keep the best performance all the time.
 
-### Complexity
+## Complexity
 
 | Operation | Average   | Worst     |
 | --------- | --------- | --------- |
