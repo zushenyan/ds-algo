@@ -1,6 +1,6 @@
 # Linked List
 
-### Definition
+## Definition
 
 A sequential nodes that contains value and the reference to another node.
 
@@ -17,14 +17,14 @@ A sequential nodes that contains value and the reference to another node.
 | Singly | Easy to implement             | Hard to access previous nodes |
 | Doubly | Easy to access previous nodes | Takes 2x space                |
 
-### Application Scenarios
+## Application Scenarios
 
 - As queue or stack implementation.
 - Circular lists.
 - Used in separate chaining as a solution to Hashtable collision issue.
 - The implementation of adjacency lists for graphs.
 
-### Complexity
+## Complexity
 
 | Operation        | Singly | Doubly |
 | ---------------- | ------ | ------ |

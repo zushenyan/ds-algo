@@ -18,6 +18,10 @@ function fib(n: number): number {
 }
 ```
 
+Time Complexity: `O(2^n)`
+
+Space Complexity: `O(n)`
+
 ## Memoization
 
 In recursive manner, the whole operation can be visuallized as a tree:
@@ -28,17 +32,9 @@ In the graph above, we can see there are tons of duplicated nodes circled in red
 
 We can optimize it with either **memoization** or **tabulation**, either one can help optimze our performance (the `n` here represents the height of the tree):
 
-**Time complexity**
+Time complexity: `O(n)`
 
-```math
-O(2^n) \rightarrow O(n)
-```
-
-**Space Complexity**
-
-```math
-O(n) \rightarrow O(n)
-```
+Space Complexity: `O(n)`
 
 **Implementation**
 
@@ -96,17 +92,9 @@ Original (It's length of 7 because we need to calculate the result.)
           ^ ^
 ```
 
-**Time complexity**
+Time complexity: `O(n)`
 
-```math
-O(2^n) \rightarrow O(n)
-```
-
-**Space Complexity**
-
-```math
-O(n) \rightarrow O(n)
-```
+Space Complexity: `O(n)`
 
 **Implementation**
 

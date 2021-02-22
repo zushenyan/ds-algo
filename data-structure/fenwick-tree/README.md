@@ -1,6 +1,6 @@
 # Fenwick Tree (Binary Indexed Tree)
 
-### Definition
+## Definition
 
 This is a data structure that supports both setting and queries for sum range in a static array.
 
@@ -25,7 +25,7 @@ The `|` represents the repsonsiblility for that cell.
 
 All the odd numbers are responsible for themselves, which is 1, for index 2 is 2, index 4 is 4, for index 6 is 2 since index 1 ~ 4 have been covered already. Repeat this process until all the elements have been covered.
 
-###### Query
+### Query
 
 ```
 8 1000    |
@@ -57,7 +57,7 @@ sum of [1,5) = A[4]
 range sum of [5,7] = (A[7] + A[6] + A[4]) - A[4]
 ```
 
-###### Update
+### Update
 
 ```
 8 1000    |
@@ -88,7 +88,7 @@ A[6] = A[6] + x
 A[8] = A[8] + x
 ```
 
-###### Construction
+### Construction
 
 ```
 Suppose we have an array like below
@@ -132,11 +132,11 @@ Suppose we have an array like below
 1 0001 |||   3
 ```
 
-### Application Scenarios
+## Application Scenarios
 
 - Efficiently setting and query a sum up range in a static array.
 
-### Complexity
+## Complexity
 
 | Operation      | Complexity |
 | -------------- | ---------- |

@@ -1,6 +1,6 @@
 # Stack
 
-### Definition
+## Definition
 
 A container that only allows `push` and `pop` operations for its data.
 
@@ -26,14 +26,14 @@ stack: 1
 
 The operation order is **First-In-Last-Out (FILO)**.
 
-### Application Scenarios
+## Application Scenarios
 
 - History machanism for data (undo & redo).
 - Syntax checking for matching brackets and braces.
 - Tracking recursion of previous function calls.
 - Used in depth first search (DFS).
 
-### Complexity
+## Complexity
 
 | Operation | Complexity |
 | --------- | ---------- |

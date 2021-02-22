@@ -1,6 +1,6 @@
 # Union Find (Disjoint Set)
 
-### Definition
+## Definition
 
 A data structure that keeps track of elements that are split into one or more disjoint sets.
 
@@ -71,7 +71,7 @@ Kruskal's Minimum Spanning Tree is an algorithm for finding a Minimum Spanning T
 
 ![UnionFindKruskalDemo](https://upload.wikimedia.org/wikipedia/commons/a/a3/UnionFindKruskalDemo.gif)
 
-### Application Scenarios
+## Application Scenarios
 
 - Kruskal's minium spanning tree algorithm.
 - Grid percolation.
@@ -79,7 +79,7 @@ Kruskal's Minimum Spanning Tree is an algorithm for finding a Minimum Spanning T
 - Least common ancestor in trees.
 - Image processing.
 
-### Complexity
+## Complexity
 
 | Operation          | Complexity |
 | ------------------ | ---------- |

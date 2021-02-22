@@ -1,6 +1,6 @@
 # Indexed Priority Queue (IPQ)
 
-### Definition
+## Definition
 
 Besides as an normal priority queue, it also supports **quick updates and deletions of key-value pairs**.
 
@@ -46,7 +46,7 @@ Where is Bob in the IPQ? The answer is `1` because we can tell from the PM since
 
 Which key is represented in the node at index `2`? The answer is `0 (Mary)` because we can tell from the IM.
 
-###### The Insertion and Removal
+### The Insertion and Removal
 
 It is just like how we do to a normal heap. The difference is, we have to update its PM and IM to make it sync with our tree.
 
@@ -59,7 +59,7 @@ It is just like how we do to a normal heap. The difference is, we have to update
   3. Remove the node with the latest position index that we just swapped.
   4. Maintain its invariant with bubbling/sinking.
 
-### Complexity
+## Complexity
 
 IPQ as a binary heap
 

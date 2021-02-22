@@ -1,6 +1,6 @@
 # Heap (Priority Queue)
 
-### Definition
+## Definition
 
 Priority Queue is an Abstract Data Type (ADT). It is similar to a normal queue. The difference is that each element has a priority. The removal order is based on the priority of elements. The element inside PQ has to be **comparable**.
 
@@ -62,7 +62,7 @@ A Binary Heap can be represented as array, for example the heap above can be rep
 - `2i + 1` left child index (zero based index)
 - `2i + 2` right child index (zero based index)
 
-###### The Removal and Insertion
+### The Removal and Insertion
 
 Suppose we have a binary heap tree like below:
 
@@ -126,14 +126,14 @@ index 0 1 2 3 4 5 6
 value 9 7 8 6 5 n n
 ```
 
-### Application Scenarios
+## Application Scenarios
 
 - Dynamically fetch the "next best" or the "next worst".
 - Huffman coding (Lossless data compression).
 - Best First Search (For example A-star algorithm).
 - Minimum Spanning Tree.
 
-### Complexity
+## Complexity
 
 It's the complexity when a PQ is implemented with binary heap.
 

@@ -1,6 +1,6 @@
 # Queue
 
-### Definition
+## Definition
 
 A container that only allows `enqueue` and `dequeue` for its data.
 
@@ -26,12 +26,12 @@ queue: 3
 
 The operation order is **First-In-First-Out (FIFO)**
 
-### Usage
+## Application Scenarios
 
 - Any waiting line model.
 - Breadth first search (BFS).
 
-### Complexity
+## Complexity
 
 | Operation | Complexity |
 | --------- | ---------- |

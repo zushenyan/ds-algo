@@ -1,6 +1,6 @@
 # AVL Tree
 
-### Definition
+## Definition
 
 AVL tree has a **Balanced Factor (BF)** which uses `H(x)` to represent **the number of edges between x and the furthest leaf**. This forces the tree to remain balanced. The BF should always be either -1, 0 or +1.
 
@@ -26,6 +26,6 @@ Upon every insertion, removal and update, we use **tree rotations** to maintain 
 3
 ```
 
-### Complexity
+## Complexity
 
 It is basically the same as BBST.

@@ -1,6 +1,6 @@
 # Hash Table
 
-### Definition
+## Definition
 
 It's a data structure provide `key-value pairs` by mapping from keys to valuse using `hashing`. The keys need to be **hashable**.
 
@@ -10,7 +10,7 @@ It's a data structure provide `key-value pairs` by mapping from keys to valuse u
 | John | blue  |
 | Leah | green |
 
-###### Hash Function
+### Hash Function
 
 A hash function `H(x)` is a function that maps a key `x` to a number in a fixed range.
 
@@ -26,7 +26,7 @@ H(0) = 9
 
 The hash function has to be **deterministic**, which means with the same input, it should return the same output.
 
-###### Hash Collision
+### Hash Collision
 
 In some scenario we might end up having items with the same hash number. It is called `hash collision`.
 
@@ -36,7 +36,7 @@ In some scenario we might end up having items with the same hash number. It is c
 | Mary | 12  | 5    |
 | Bob  | 15  | 1    |
 
-###### How does it work
+### How does it work
 
 Suppose we have a formula like this `H(x) = (x^2 + 3) mod 5`, and we want to insert a data into our hash table. The size of this hash table is 5.
 
@@ -64,7 +64,7 @@ The insertion takes (key, value) type
 
 However with this size, we will quickly hit `hash collision`. To resolve this, we can use techniques like `separate chaining` or `open addressing`.
 
-###### separate chaining
+### separate chaining
 
 It uses a data structure (mostly a linked list due to performance wise) to hold all the values for a hash number.
 
@@ -99,7 +99,7 @@ It uses a data structure (mostly a linked list due to performance wise) to hold 
 
 When it grows larger we might have a lot of elements that we no longer maintain `O(1)` for our hash table. In that case, consider to create a larger size of hash table and rehash elements.
 
-###### open addressing
+### open addressing
 
 It finds another place for storing whithin the hash table by offsetting from the position to which it hashed to. Repeating this approach until a slot is found is called `probing sequence P(x)`.
 
@@ -131,11 +131,11 @@ null  null  (k,v) null
 
 To resolve this, we restrict the domain of probing functions to those which produce a cycle of exactly length N. Please look up `linear probing`, `quadratic probing`, `double hashing` for detail.
 
-### Application Scenarios
+## Application Scenarios
 
 - Track for frequencies.
 
-### Complexity
+## Complexity
 
 | Operation | Average | Worst |
 | --------- | ------- | ----- |
