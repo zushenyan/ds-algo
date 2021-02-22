@@ -1,8 +1,8 @@
 # Suffix Arrays & LCP(Longest Common Prefixes) & LCS(Longest Common Substrings) & LRS(Longest Repeated Substrings)
 
-### Definition
+## Definition
 
-###### Suffix Arrays
+### Suffix Arrays
 
 We have to talk about Suffix Array (SA) first. Suffix array is an array which contains all the sorted suffixes of a string:
 
@@ -28,7 +28,7 @@ Suffix array:
 
 However we only store the `index` in the memory. This is a space efficient to a suffix tree. Suffix arrays can do everything suffix trees can, with some additional information such as a Longest Common Prefix (LCP) array.
 
-###### Longest Common Prefix (LCP)
+### Longest Common Prefix (LCP)
 
 The definition is an array in which every index tracks **how many characters two sorted adjacent suffixes have in common**.
 
@@ -70,9 +70,7 @@ A, AZ, AZA, AZAZ, AZAZA, Z, ZA, ZAZ, ZAZA
 
 Unique substrings forumla:
 
-```math
-\frac{n(n-1)}{2} - \sum_{i=1}^{n} LCP[i]
-```
+![equation](https://latex.codecogs.com/gif.latex?\frac{n(n-1)}{2}&space;-&space;\sum_{i=1}^{n}&space;LCP[i])
 
 Apply this to our result:
 
@@ -81,7 +79,7 @@ Text = "AZAZA", n = 5
 The unique substrings number is: 5(5+1)/2 - (0+1+3+0+2) = 9
 ```
 
-###### Longest Common Substrings (LCS)
+### Longest Common Substrings (LCS)
 
 We can use dynamic programming to find it, however, it still takes `O(n1 * n2 * n3 * ... * nm)` to run. Instead, we can we suffix array to reduce the time complexity to `O(n1 + n2 + n3 + ... + nm)`.
 
@@ -118,7 +116,7 @@ And then we can iterate through this list by using the **sliding window** techni
 
 The LCS result is 2, and we reduce the time complexity to `O(n)`.
 
-###### Longest Repeated Substrings (LRS)
+### Longest Repeated Substrings (LRS)
 
 The LRS for `ABRACADABRA` is `ABRA`
 
@@ -160,6 +158,6 @@ Sometimes the LRS can be multiple, take `ABABBAABAA` as example:
 
 We have `ABA` and `BAA` as our champions.
 
-### Application Scenarios
+## Application Scenarios
 
 - Counting LCP, LCS, LRS.
