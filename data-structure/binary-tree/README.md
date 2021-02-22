@@ -1,6 +1,6 @@
 # Binary Tree & Binary Search Tree
 
-### Definition
+## Definition
 
 A tree is an undirected graph that satisfies any following creteria:
 
@@ -8,17 +8,17 @@ A tree is an undirected graph that satisfies any following creteria:
 - N nodes and N-1 edges.
 - Two nodes are only connected by one path.
 
-###### Terminologies
+### Terminologies
 
 - `root` every nodes could be a `root`. A `root` is a node without a parent.
 - `child` a node extends from another node.
 - `leaf` a node without any children.
 
-###### Binary Tree
+### Binary Tree
 
 A binary tree is a tree that every node has at most two child nodes.
 
-###### Binary Search Tree
+### Binary Search Tree
 
 A binary search tree is subset of binary tree, and the left node's value is alway smaller than its parent's, and the right node value is always greather than its parent's.
 
@@ -176,7 +176,7 @@ Use a queue to enqueue all the children waiting to be traversed and dequeue the 
 // 3 1 6 0 2 4 8 7 9
 ```
 
-### Application Scenarios
+## Application Scenarios
 
 - Implementation of binary heaps.
 - Implementation of some map and set ADTs.
@@ -185,7 +185,7 @@ Use a queue to enqueue all the children waiting to be traversed and dequeue the 
 - Syntax tress (for compilers).
 - Treap - a probabilistic data structure.
 
-### Complexity
+## Complexity
 
 The complexity of BST:
 
