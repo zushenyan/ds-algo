@@ -10,7 +10,6 @@ const toLocation = (x: number, y: number) => `${x},${y}`;
 
 function dfs(grid: string[][]): number {
   let islands = 0;
-  const queue = [];
   const visit = new Set();
 
   const dfsHelper = (x: number, y: number) => {
