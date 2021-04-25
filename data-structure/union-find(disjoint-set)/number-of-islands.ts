@@ -81,11 +81,11 @@ function unionFind(grid: string[][]) {
     }
   }
 
-  function find(x) {
+  function find(x: number) {
     return x === ids[x] ? x : find(ids[x]);
   }
 
-  function union(x, y) {
+  function union(x: number, y: number) {
     const [px, py] = [find(x), find(y)];
     if (px !== py) {
       ids[px] = py;
