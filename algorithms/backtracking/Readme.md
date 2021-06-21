@@ -33,6 +33,8 @@ The time complexity of backtracking differs case by case, as it is trying to fin
 
 [source](https://stackoverflow.com/questions/20049829/how-to-calculate-time-complexity-of-backtracking-algorithm)
 
+Although dynamic programming and backtracking look alike, nevetheless dynamic programming is actually trying to find the optimized solution that could be either maximum or minimum, while backtracking is trying to find all solutions.
+
 # Branch and Bound
 
 The purpose of this algorithm is the same to the Backtracking, the only difference is that it is using BFS for searching the answer.
