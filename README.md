@@ -83,3 +83,5 @@ Other common notation examples:
 - `O(n!)` finding all permutations of a string.
 - `O(nlog(n))` mergesort.
 - `O(nm)` Iterating over all the cells in a matrix of size n by m.
+
+For more info about Big-O complexity please check [bigocheatsheet.com](https://www.bigocheatsheet.com/).
