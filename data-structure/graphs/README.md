@@ -214,3 +214,23 @@ Algorithms
 - Ford-fulkerson
 - Edmonds-Karp
 - Dinic
+
+# Algorithms
+
+### DFS
+
+The time complexity is `O(Vertices + Edges)`
+
+Mostyly used in
+
+- count connected components (a graph is split into multiple parts)
+- determine connectivity
+- find bridge/articulation points
+
+### BFS
+
+the time complexity is `O(Vertices + Edges)`
+
+Mostly used in
+
+- shortest path on unweighted graphs.
