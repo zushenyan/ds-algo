@@ -234,3 +234,25 @@ the time complexity is `O(Vertices + Edges)`
 Mostly used in
 
 - shortest path on unweighted graphs.
+
+### Topological Sort
+
+It is mostly used in program build dependencies or finding the prerequisites. In this context, the ordering matters in a graph.
+
+The time complexity is `O(Vertices + Edges)`
+
+There are some caveats for Topological Sort:
+
+- The result is not unique.
+- It only works for DAG(Directed Acyclic Graph). A graph with cycle cannot have ordering.
+
+![topological sort](topological-sort.png)
+
+(Prerequisites if we want to reach the node J.)
+
+Steps for this algorithm
+
+1. Pick an unvisited node
+2. Do a DFS exploring the unvisited nodes.
+3. On the callback of DFS, append the current node to an array.
+4. Reverse the array to make it presenet in the Topological Sort.
