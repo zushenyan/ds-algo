@@ -256,3 +256,25 @@ Steps for this algorithm
 2. Do a DFS exploring the unvisited nodes.
 3. On the callback of DFS, append the current node to an array.
 4. Reverse the array to make it presenet in the Topological Sort.
+
+### The Shortest/Longest Problems
+
+The **Single Source Shortest Path** (SSSP) can be solved efficiently on a DAG in time complexity `O(V+E)`. It can be done with Topological Sort.
+
+![sssp](sssp.png)
+
+For the longest path, on general graph, it is a NP-Hard problem, but on DAG, it is `O(V+E)`.
+
+Procedure
+
+1. multiply all edges value by -1.
+2. find the shortest path.
+3. multiply all edges value by -1 again.
+
+![longest-path-dag](longest-path-dag.png)
+
+### Dijkstra
+
+A Single Source Shortest Path (SSSP) algorithm for graphs with **non-negative edge weights**.
+
+The time complexity is usually `O(E*log(V))`, depending on the data structure used.
