@@ -14,6 +14,7 @@ Algorithms
 - and many more...
 
 ![the shortest path](shortest-path.png)
+![sp comparison](sp-comparison.png)
 
 ### Connectivity
 
