@@ -79,6 +79,8 @@ Complexity table, complexity ordered **from the best to the worst**:
 | Exponential  | O(m^n)     |
 | Factorial    | O(n!)      |
 
+![big-o-chart](big-o-chart.png)
+
 Other common notation examples:
 
 - `O(2^n)` finding all subsets of a set.
