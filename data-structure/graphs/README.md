@@ -97,7 +97,7 @@ Pros
 - more efficient to traverse all edge comparing to `adjaceny matrix`
 - simple to represent
 
-Const
+Cons
 
 - it takes `O(E)` time complexity to look up weights.
 
