@@ -1,6 +1,6 @@
 # Introduction
 
-This repo is my note to these resources I found online for learning `data structure` & `algorithm`
+This repo is my note of resources I found online while learning `data structure` & `algorithm`
 
 - [Data Structures an Introduction (by William Fiset)](https://www.youtube.com/watch?v=RBSGKlAvoiM&ab_channel=freeCodeCamp.org)
 - [Graph Theory Intro & Overview (by William Fiset)](https://www.youtube.com/watch?v=09_LlHjoEiY&t=23108s&ab_channel=freeCodeCamp.org)
