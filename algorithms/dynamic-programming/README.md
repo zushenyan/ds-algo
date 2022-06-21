@@ -26,7 +26,7 @@ Space Complexity: `O(n)`
 
 In recursive manner, the whole operation can be visuallized as a tree:
 
-![tree](https://github.com/zushenyan/ds-algo/blob/main/dynamic-programming/tree.png)
+![tree](/tree.png)
 
 In the graph above, we can see there are tons of duplicated nodes circled in red rectangles.
 
