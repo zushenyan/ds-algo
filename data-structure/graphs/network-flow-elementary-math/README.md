@@ -38,7 +38,7 @@ In the graph abobe, `(1,5)` pair with three oeprators can produce answers:
 
 so does `3 + 3 = 6`, so the answer should not be duplicated.
 
-The number labels are explain in detailed as below:
+The number labels are explained in detail below:
 
 1. The capacity is set to 1 as the answer has to be unique.
 2. The capacity is set to 1 as only one of `+`, `-` or `*` can be matched with an answer.
