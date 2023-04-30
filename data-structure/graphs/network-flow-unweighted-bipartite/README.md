@@ -10,7 +10,7 @@ It is also known as **two colourable** or **no cycle with an odd length**.
 
 ### Maximum Cardinality Matching
 
-**Maximum Cardinality Bipartite Matching (MCBM)** is a matching that we have maximized the paris that can be matched with each other.
+**Maximum Cardinality Bipartite Matching (MCBM)** - we have maximized the pairs that can be matched with each other.
 
 Applications
 
