@@ -17,7 +17,7 @@ Applications
 - matching candidates for jobs
 - chairs to desks
 - surfers to surf boards
-- members of two groups should be matched in paris...
+- members of two groups should be matched in pairs...
 
 ### Common matching variations
 
