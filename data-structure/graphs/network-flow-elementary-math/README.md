@@ -14,7 +14,7 @@ For each pair of numbers `(a, b)` in the same order as in the input, output a li
 - an eqauals sign (`=`)
 - the result of the expression
 
-All the `n` expression results must be different. If there are multiple valid answers, output any of them. If there is no valid answer output a single line with the string "impossible" instead.
+All the `n` expression results must be different. If there are multiple valid answers, output any of them. If there is no valid answer, output a single line with the string "impossible" instead.
 
 ![example-1](example-1.png)
 ![example-2](example-2.png)
